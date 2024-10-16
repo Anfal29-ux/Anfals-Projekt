@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+header{
+   
+border-bottom: 1px solid rgb(96, 91, 91);
+display: flex;
+margin: 10px 5px 10px 5px;
+padding-bottom: 10px;
+
+
+}
+#container{
+    align-items: center;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    
+}
+nav ul{
+display: flex;
+
+}
+
+
