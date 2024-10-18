@@ -189,4 +189,54 @@ div.hero-logo{
   color: #666;
   margin-left: 33%;
 }
+#online{
+    padding: 10px;
+    text-decoration: none;
+    justify-content: center;
 
+}
+.onlinetitel h1{
+
+    font-size: 40px;
+    font-family: lucida;
+    color: black;
+    margin-top:60px;
+    margin-left: 10px;
+}
+.onlinetitel p{
+   
+    text-align:start;
+    font-size: 15px;
+    color: #666;
+   
+
+}
+ div.online-img{
+
+    
+}
+#img2{
+    max-width: 50%;
+    margin-left: 20px; 
+    justify-content: center;
+    text-align: center;
+}
+ div.online-img h2{
+    font-size: larger;
+    margin-top: 0;
+    margin-left: 0;
+
+ }
+ #logo2{
+    max-width: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-left:25%;
+ }
+ div.online-logo{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+
+ }
