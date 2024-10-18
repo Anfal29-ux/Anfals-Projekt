@@ -3,10 +3,9 @@ body{
     list-style: none;
     text-decoration: none;
     background-color: white;
-   max-width: 1200px;
+   max-width: 1200vh;
    margin: 0%;
-   padding: 0;
-   flex-shrink: 0;
+
 
 }
 header{
@@ -71,14 +70,15 @@ nav {
 .visionsub h1{
     width: 400px;
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom:20px;
 }
 .visionsub p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color:#666;
     margin-bottom: 30px;
 }
 .visionsub .button{
+    width: 20%;
     padding: 10px 20px;
     background-color: black;
     color: white;
@@ -91,6 +91,10 @@ nav {
 width: 50%;
 margin-left: 100px;
 
+}
+#vision-img{
+    width: 400px;
+    height: 300px;
 }
 
 #wraper{
@@ -118,6 +122,7 @@ margin-left: 100px;
     flex: 1 1 calc(20%-20px);
     min-width: 150px;
 }
+
 #hero{
   
   text-decoration: none;
@@ -238,5 +243,28 @@ div.hero-logo{
     display: flex;
     text-align: center;
 
+
+ }
+
+#freeplan{
+
+}
+.freeplantitle{
+
+}
+
+
+#table{
+  border:10px;
+  background-color: #c1c0c0;
+  width: 300px;
+  height: auto;
+  justify-content: center;
+  font-size: small;
+  text-align: start;
+
+}
+ nav.table1{
+    border-bottom: 1px solid darkgary;
 
  }
