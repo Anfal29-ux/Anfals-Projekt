@@ -1,55 +1,43 @@
 
 body{
-    list-style: none;
-    text-decoration: none;
     background-color: white;
    max-width: 1200vh;
    margin: 0%;
-
-
 }
-header{
- display: flex;
- justify-content: space-between;
- align-items: center;
- width: 100%;
- font-size: smaller;
- border-bottom: 1px solid gray;
- border-left: 5px;
- border-right: 5px;
- margin: auto;
- height: 40px;
- position: relative;
-} 
 
-#container{
-    display: flex;
+
+#webblogo{
+    max-width: 7%;
+    margin:20px 10px ;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+nav#top-menu{
+    max-width: 1000px;
+    margin:0 auto;
+    background-color: #f1f1f1;
+
+    display:flex;
     justify-content: space-between;
-    align-items: center;
-    font-size: 15px;
-  text-decoration: none;
 }
-::marker{
-    display: none;
-}
-.logo{
-    width: 105px;
-  height: 30px;
-  margin:15px 10px;
+.top.menu-item{
+    display: block;
+    padding:10px 15px;
+    color :#777;
     
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
+nav.sub-menu{
+    display: none;
 }
-#container ul{
-    display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  font-size: smaller;
 
-}
+
+
+
+
 
 
 #vision{
