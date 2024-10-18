@@ -119,14 +119,16 @@ margin-left: 100px;
     min-width: 150px;
 }
 #hero{
-
+  
+  text-decoration: none;
+  text-align: center;
 }
 .herotitle h1{
     font-size: 40px;
     font-family: lucida;
     color: black;
     margin-top:60px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 .herotitle p{
@@ -134,7 +136,7 @@ margin-left: 100px;
     text-align:start;
     font-size: 15px;
     color: #666;
-    margin-left: 20px;
+    margin-left: 25%;
    
 }
 
@@ -145,19 +147,46 @@ margin-left: 100px;
 h2{
     font-size:20px;
     color: #666;
-    margin-left: 50%;
+    margin-left: 25%;
     margin-top: 20px;
     max-width: 50%;
     text-align: center;
     justify-content: center;
 }
 div.hero-logo{
-    margin-top: 10px;
+
         justify-content: center;
         display: flex;
         text-align: center;
         margin-left: 60%;
 }
-.hero-logo img{
-    width: 50%;
+#logo1{
+    max-width: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-left:25%;
 }
+.hero-logo h1{
+ 
+  margin-left: 25%;
+  font-size: 10px;
+  font-family: lucida;
+  color: black;
+ 
+    font-size: larger;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    direction: inherit;
+    margin-bottom: 0;
+  
+
+}
+.hero-logo p{
+  width: 400px;
+  text-align: center;
+  font-size: 1px;
+  color: #666;
+  margin-left: 33%;
+}
+
